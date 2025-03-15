@@ -1,0 +1,6 @@
+add_requires("lief")
+target("main")
+    set_kind("binary")
+    add_files("main.cpp")
+    set_languages("c++20")
+    add_packages("lief")
